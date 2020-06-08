@@ -17,5 +17,6 @@ namespace Core_swashbuckle.Models
 
 
         public DbSet<Values> Values { set; get; }
+        public DbSet<User> Users { set; get; }
     }
 }
